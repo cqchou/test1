@@ -3,18 +3,36 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Git Web Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+	<style>
+	div {
+		padding: 20px;
+		}
+	</style>
 </head>
 <body>
-	<h1>CQ Git Page</h1>
-	<p>5 人 (已報名人數不等於錄訓人數，實際招生情形，請逕洽訓練單位)<br/>
-課程名稱：	行動通訊電子商務實務班(整班為遠距教學)<br/>
-學分數：	非學分班<br/>
-師資介紹：	江美燕 老師<br/>
-學歷：中興大學法商學院   企業管理學系<br/>
-專長：電子商務、社群行銷、簡報技巧、行銷管理、形象管理</p><br/>
-專長：電子商務、社群行銷、簡報技巧、行銷管理、形象管理</p><br/>
-專長：電子商務、社群行銷、簡報技巧、行銷管理、形象管理</p><br/>
+	<div>
+		<h1>Git Static Web Page</h1>
+		<h3 id="msg">A Branch</h3>
+		<p><button type="button" class="btn btn-default">按 我</button></p>
+
+		<p>What should I put here?</p>
+		<p>Side Bars Content</p>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script>
+$( "button" ).click(function() {
+    $( "#msg" ).toggle();
+});
+	</script>
 </body>
 </html>
